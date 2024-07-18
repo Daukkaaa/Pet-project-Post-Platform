@@ -9,6 +9,7 @@ body {
   background-color: rgb(233, 229, 224);
 }
 
-
-
-
+.profile_block {
+  display: flex;
+  flex-direction: column;
+}
