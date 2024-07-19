@@ -1,15 +1,19 @@
-import Main_Home from "./Components/HomePage/Main_Home";
+import Post_Block from "./Components/HomePage/Post_Block";
 import Profile_Home from "./Components/HomePage/Profile_Home";
+import Aside_Page from "./Components/HomePage/Aside_Page";
 
 export default function Home() {
   return (
     <>
       <div className="home_page">
-        <Profile_Home />
+        <div>
+          <Profile_Home />
+        </div>
         <main>
-          <Main_Home />
+          <Post_Block />
         </main>
         <aside>
+          <Aside_Page />
         </aside>
       </div>
     </>
