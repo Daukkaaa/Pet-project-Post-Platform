@@ -1,3 +1,5 @@
+import ImageUpload from "./imageUpload/image-upload";
+
 export default function Post_Block() {
     return (
         <>
@@ -18,9 +20,7 @@ export default function Post_Block() {
                         />
                     </div>
                     <div className="post_img_con">
-                        <input
-                            type="file"
-                        />
+                        <ImageUpload />
                     </div>
                 </div>
             </div >

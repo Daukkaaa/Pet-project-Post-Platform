@@ -1,7 +1,10 @@
 const nextConfig = {
     images: {
-      domains: ['velog.velcdn.com'],
+      remotePatterns: [
+        {
+          hostname: 'utfs.io'
+        }
+      ]
     },
   };
-  
   module.exports = nextConfig;
